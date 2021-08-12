@@ -1,0 +1,73 @@
+body{
+    background-color: #0F044C;    
+}
+div#displayPic img{
+    border-radius: 50%;
+    margin-right: 3rem;
+}
+div#section1 div#playCard{
+   
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2%;
+    height: 100%;
+    width: 60%;
+}
+#numeral{
+    font-family: 'Recursive', sans-serif;
+    font-size: 9em;
+}
+div#facts{
+    align-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+div#section1{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+
+}
+
+#section2{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+}
+#playCardButton{
+ 
+}
+
+
+
+
+
+/*  button css starts here */
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #e03e95 5%, #9147e6 100%);
+	background-color:#e03e95;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #9147e6 5%, #e03e95 100%);
+	background-color:#9147e6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
